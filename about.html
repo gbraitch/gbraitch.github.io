@@ -7,18 +7,34 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Bootstrap 5 Tutorial</title>
   </head>
   <body>
 
     <div class="container my-5">
+      <div class="theme-switch-wrapper float-right">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <em></em>
+      </div>
+
       <h1>Gursewak Braitch</h1>
-      <a href="mailto:g.braitch@hotmail.com" type="button" class="btn btn-outline-primary">
-        g.braitch@hotmail.com
-      </a>
+        <a href="mailto:g.braitch@hotmail.com" type="button" class="btn btn-outline-primary">
+          g.braitch@hotmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/gbraitch/" class="linkedin ml-3"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/gbraitch" class="github ml-3"><i class="bx bxl-github"></i></a>
       <p class="lead">
-        Enjoys Development and Design, Programming, Front-End and Back-End, as well as UI and UX.
+        Pursuing a Bachelor of Applied Science (B.A.Sc.) Majoring in Electrical Engineering with a Minor in Computer Science. <br/>
+        Enjoys Development and Design, Programming, Front-End and Back-End.
       </p>
     </div>
 
@@ -33,37 +49,50 @@
             <a href="#" class="nav-link active">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact Me</a>
+            <a href="/#Portfolio" class="nav-link">Portfolio</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <div class="container">
-      <h3 class="mt-5 mb-3">About Gursewak</h3>
-      <p>Write some more information about yourself</p>
-    </div>
+    <div class='container'>
+      <div class='mt-5 mb-6"'>
+        <h1>About</h1>
+      </div>
 
-    <div class="container my-5">
-      <nav>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="/" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link active">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <img src="assets/img/profile-img.PNG" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+          <h3>Engineering Student &amp; Software Developer</h3>
+          <p>Hey! <br/>
+            I'm Gursewak, a fourth-year Electrical Engineering student at the University of British Columbia. Through my degree I've realized I have a passion for software development and enjoy working on both front-end and back-end projects.
+            My interests include Full-Stack Software Development and embedded systems.
+            When I'm not coding, you can probably find me at the gym working out, nose deep in a book, or playing rec basketball.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul style="list-style-type:none;">
+                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> (+1) 778-952-1371</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.gbraitch.com</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> g.braitch@hotmail.com</li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul style="list-style-type:none;">
+                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor of Applied Science in Electrical Engineering, Minor in Computer Science</li>
+                <li><i class="icofont-rounded-right"></i> <strong>Expected Graduation:</strong> April 2021</li>
+                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Vancouver, British Columbia</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
@@ -71,5 +100,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

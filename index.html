@@ -7,20 +7,39 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Bootstrap 5 Tutorial</title>
+    <title>Gursewak Braitch</title>
   </head>
   <body>
 
     <div class="container my-5">
+      <div class="theme-switch-wrapper float-right">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+        <em></em>
+      </div>
+
       <h1>Gursewak Braitch</h1>
-      <a href="mailto:g.braitch@hotmail.com" type="button" class="btn btn-outline-primary">
-        g.braitch@hotmail.com
-      </a>
+        <a href="mailto:g.braitch@hotmail.com" type="button" class="btn btn-outline-primary">
+          g.braitch@hotmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/gbraitch/" class="linkedin ml-3"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/gbraitch" class="github ml-3"><i class="bx bxl-github"></i></a>
       <p class="lead">
-        Enjoys Development and Design, Programming, Front-End and Back-End, as well as UI and UX.
+        Pursuing a Bachelor of Applied Science (B.A.Sc.) Majoring in Electrical Engineering with a Minor in Computer Science. <br/>
+        Enjoys Development and Design, Programming, Front-End and Back-End.
       </p>
     </div>
+
 
     <div class="container">
       <nav>
@@ -32,11 +51,11 @@
             <a href="/about.html" class="nav-link">About Me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#Portfolio" class="nav-link">Portfolio</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="#" class="nav-link">Contact Me</a>
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>
@@ -49,29 +68,18 @@
           <div class="card">
             <div class="card-body">
               <div class="mx-3">
-                <h4>Moshi Moshi Marketing</h4>
-                <strong>2017-Current</strong>
-                Front-End and Back-End developer doing a number of projects using HTML, CSS, and Javascript.
+                <h4>Sierra Wireless</h4>
+                <strong>September 2019 - April 2020</strong>
+                <div>
+                  Front-End and Back-End developer doing a number of projects using C++, HTML, CSS, Javascript, and Python.
+                </div>
               </div>
               <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">Developing iOS and Android Apps</li>
-                <li class="list-group-item">Creating WordPress Websites</li>
-                <li class="list-group-item">Backing nodeJS API Back-end</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="card mt-3">
-            <div class="card-body">
-              <div class="mx-3">
-                <h4>Chamber of Commerce</h4>
-                <strong>2013-2017</strong>
-                IT Support and Helpdesk
-              </div>
-              <ul class="list-group list-group-flush mt-2">
-                <li class="list-group-item">Fixing Computers</li>
-                <li class="list-group-item">Fixing Servers</li>
-                <li class="list-group-item">Security Testing</li>
+                <li class="list-group-item">Improving existing features to troubleshooting and resolving issues found by QA</li>
+                <li class="list-group-item">Designed and implemented new feature to allow customers to create and upload XML templates of device settings to use as default reset settings; significantly decreased RMA requests from customers</li>
+                <li class="list-group-item">Optimized dependencies of startup scripts for ALEOS; decreased bootup time and made code easier to navigate and modify</li>
+                <li class="list-group-item">Used C++ and Bash for work involving embedded Linux environment</li>
+                <li class="list-group-item">HTML/CSS, JavaScript, and Python for remote device management and configuration tool</li>
               </ul>
             </div>
           </div>
@@ -88,8 +96,7 @@
                   <li>CSS</li>
                   <li>JS</li>
                   <li>React</li>
-                  <li>Angular</li>
-                  <li>Ionic</li>
+                  <li>Bootstrap</li>
                 </div>
               </div>
             </div>
@@ -100,11 +107,12 @@
               <div class="mx-3">
                 <h4>Back-End</h4>
                 <div class="ul">
+                  <li>C/C++</li>
+                  <li>Java</li>
                   <li>NodeJS</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
-                  <li>Mongo</li>
                   <li>Express</li>
+                  <li>jQuery</li>
+                  <li>Mongo</li>
                   <li>API's</li>
                 </div>
               </div>
@@ -115,59 +123,40 @@
       </div>
     </div>
 
-    <div class="container mt-5">
+    <div id="Portfolio" class="container mt-5">
       <h3>Previous Projects</h3>
       <div class="row">
         <div class="col-lg-3">
           <div class="card mb-3">
-            <img src="https://picsum.photos/400/200" alt="Medical Startup" class="card-img-top">
+            <img src="https://raw.githubusercontent.com/gbraitch/todolist/master/demo/demo.gif" alt="TodoList" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Medical Startup</h5>
-              <p class="card-text">Specialist Directory for accessing Resources</p>
-              <div class="btn btn-primary">View Website</div>
+              <h5 class="card-title">TodoList Application</h5>
+              <p class="card-text">To-do list app made using Java and JavaFx</p>
+              <a href="https://github.com/gbraitch/todolist" class="btn btn-primary">View Github</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="card mb-3">
-            <img src="https://picsum.photos/400/200" alt="Medical Startup" class="card-img-top">
+            <img src="https://user-images.githubusercontent.com/8892975/90971165-ee890680-e4c1-11ea-9c03-1748b4256bbd.png" alt="Gas Statuin" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">VPNAUS</h5>
-              <p class="card-text">Virtual Private Network</p>
-              <div class="btn btn-primary">View Website</div>
+              <h5 class="card-title">Automated Gas Station</h5>
+              <p class="card-text">Real time simulation of a gas station operating in C++ using parallel programming</p>
+              <a href="https://github.com/gbraitch/gasStation" class="btn btn-primary">View Github</a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="card mb-3">
-            <img src="https://picsum.photos/400/200" alt="Medical Startup" class="card-img-top">
+            <img src="https://user-images.githubusercontent.com/8892975/90968876-79f49e80-e4a6-11ea-8701-c152e0f6381e.PNG" alt="Wind Turbine" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">Youtube Channel</h5>
-              <p class="card-text">Design and Development</p>
-              <div class="btn btn-primary">View Website</div>
+              <h5 class="card-title">Wind-tracking Power Generator</h5>
+              <p class="card-text">Created Maximum Power Point Tracking Algorithm and wireless real-time monitor</p>
+              <a href="https://github.com/gbraitch/windturbine" class="btn btn-primary">View Github</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container my-5">
-      <nav>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="/about.html" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
     </div>
 
     <!-- Optional JavaScript -->
@@ -175,5 +164,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
